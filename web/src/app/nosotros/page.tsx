@@ -7,7 +7,7 @@ import WhatWeDo from "@/components/WhatWeDo";
 import Process from "@/components/Process";
 import Team from "@/components/Team";
 import Partners from "@/components/Partners";
-import Register from "@/components/Register";
+import CtaBand from "@/components/CtaBand";
 import Footer from "@/components/Footer";
 import FloatingCta from "@/components/FloatingCta";
 
@@ -33,7 +33,7 @@ export default function NosotrosPage() {
         <Process />
         <Team />
         <Partners />
-        <Register />
+        <CtaBand />
       </main>
       <Footer />
       <FloatingCta />

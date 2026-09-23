@@ -9,7 +9,7 @@ import ProjectGallery from "@/components/ProjectGallery";
 import ProjectCard from "@/components/ProjectCard";
 import { MapFrame } from "@/components/GoogleMap";
 import { projectPlace } from "@/lib/places";
-import Register from "@/components/Register";
+import CtaBand from "@/components/CtaBand";
 import Footer from "@/components/Footer";
 import FloatingCta from "@/components/FloatingCta";
 import { AnimatedLines } from "@/components/About";
@@ -138,7 +138,7 @@ export default async function ProyectoPage({ params }: Params) {
           </Section>
         )}
 
-        <Register />
+        <CtaBand />
       </main>
       <Footer />
       <FloatingCta />

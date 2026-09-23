@@ -8,7 +8,7 @@ import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Gallery from "@/components/Gallery";
 import SplitCta from "@/components/SplitCta";
-import Register from "@/components/Register";
+import CtaBand from "@/components/CtaBand";
 import Footer from "@/components/Footer";
 import FloatingCta from "@/components/FloatingCta";
 
@@ -25,7 +25,7 @@ export default function Home() {
         <Projects />
         <Gallery />
         <SplitCta />
-        <Register />
+        <CtaBand />
       </main>
       <Footer />
       <FloatingCta />

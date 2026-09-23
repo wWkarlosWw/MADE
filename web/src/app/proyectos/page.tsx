@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 import PlacesMap from "@/components/GoogleMap";
 import { officePlace, projectPlace } from "@/lib/places";
 import { LunaBlancaBanner } from "@/components/Projects";
-import Register from "@/components/Register";
+import CtaBand from "@/components/CtaBand";
 import Footer from "@/components/Footer";
 import FloatingCta from "@/components/FloatingCta";
 import { Stagger, StaggerItem } from "@/components/motion";
@@ -27,7 +27,7 @@ export default function ProyectosPage() {
         <PageHero
           title="Proyectos"
           text="Desde elegantes residencias hasta modernos complejos comerciales, cada proyecto refleja nuestra dedicación a la modernización y sostenibilidad de Cochabamba."
-          image="/img/obra.webp"
+          image="/img/hero.webp"
           alt="Obra de MADE en construcción"
           crumbs={[{ label: "Proyectos", href: "/proyectos" }]}
         />
@@ -61,7 +61,7 @@ export default function ProyectosPage() {
           </Container>
         </Section>
 
-        <Register />
+        <CtaBand />
       </main>
       <Footer />
       <FloatingCta />

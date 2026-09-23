@@ -3,11 +3,9 @@ import { MotionConfig } from "motion/react";
 import Header from "@/components/Header";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
-import VisitForm from "@/components/VisitForm";
 import { MapFrame } from "@/components/GoogleMap";
 import { officePlace } from "@/lib/places";
 import Socials from "@/components/Socials";
-import Register from "@/components/Register";
 import Footer from "@/components/Footer";
 import { Reveal } from "@/components/motion";
 import { Container, Eyebrow, Heading, Section } from "@/components/ui";
@@ -42,7 +40,7 @@ export default function ContactoPage() {
           <Container className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
             <div>
               <Eyebrow>Contacto</Eyebrow>
-              <Heading as="h2">Escríbenos</Heading>
+              <Heading as="h2">Escríbenos o agenda tu visita</Heading>
               <Reveal delay={0.1}>
                 <p className="mt-5 max-w-xl leading-relaxed text-navy/70">
                   Cuéntanos sobre tu proyecto, tu terreno o la inversión que tienes en mente. Un asesor de MADE te responderá a la brevedad.
@@ -53,10 +51,7 @@ export default function ContactoPage() {
               </Reveal>
             </div>
 
-            <div className="space-y-5">
-              <Reveal delay={0.2} className="scroll-mt-28">
-                <VisitForm />
-              </Reveal>
+            <div className="space-y-5 lg:pt-24">
               <Reveal delay={0.3} className="rounded-[2rem] bg-white p-7 ring-1 ring-navy/5">
                 <ul className="space-y-5">
                   {info.map(({ Icon, label, value, href }) => (
@@ -92,7 +87,6 @@ export default function ContactoPage() {
           </div>
         </section>
 
-        <Register />
       </main>
       <Footer />
     </MotionConfig>
